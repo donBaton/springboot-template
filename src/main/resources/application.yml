@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: template
+logging:
+  level:
+    root: INFO
