@@ -30,9 +30,6 @@
                 <version>3.5.3</version>
                 <configuration>
                     <imageName></imageName>
-                    <docker>
-                        <publish>true</publish>
-                    </docker>
                 </configuration>
                 <executions>
                     <execution>
