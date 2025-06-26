@@ -29,12 +29,15 @@
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <version>3.5.3</version>
                 <configuration>
-                    <mainClass>don.baton.Main</mainClass>
+                    <imageName></imageName>
+                    <docker>
+                        <publish>true</publish>
+                    </docker>
                 </configuration>
                 <executions>
                     <execution>
                         <goals>
-                            <goal>repackage</goal>
+                            <goal>build-image</goal>
                         </goals>
                     </execution>
                 </executions>
